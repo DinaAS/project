@@ -2,7 +2,7 @@
     font-family: "TT Lakes Regular";
     src: local("TT Lakes Regular"),
     local("TTLakes-Regular"),
-    url("./font/TTLakes-Regular.woff") format("woff");
+    url("../font/TTLakes-Regular.woff") format("woff");
     font-weight: normal;
 }
 
@@ -10,7 +10,7 @@
     font-family: "TT Lakes Bold";
     src: local("TT Lakes Bold"),
     local("TTLakes-Bold"),
-    url("./font/TTLakes-Bold.woff") format("woff");
+    url("../font/TTLakes-Bold.woff") format("woff");
     font-weight: bold;
 }
 

@@ -17,7 +17,7 @@ html {
 }
 
 body{
-    font-family: "TT Lakes";
+    font-family: 'TT Lakes';
     min-width: 320px;
     overflow-x: hidden;
     margin: 0;
@@ -180,12 +180,12 @@ a:active {
 }
 
 .main__heading::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0px;
     height: 40px;
     width: 4px;
-    background-image: url(../svg/decor/highlight.svg);
+    background-image: url('../svg/decor/highlight.svg');
 }
 
 .main__list {
@@ -249,7 +249,7 @@ a:active {
 }
 
 .main__list-item-link::after {
-    content: "";
+    content: '';
     position: absolute;
     right: 0px;
     width: 24px;
@@ -259,7 +259,7 @@ a:active {
 
 @media(min-width:768px) {
     .main__list-item-link::after {
-        content: "";
+        content: '';
         position: absolute;
         right: 20px;
         width: 24px;

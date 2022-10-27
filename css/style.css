@@ -185,7 +185,7 @@ a:active {
     left: 0px;
     height: 40px;
     width: 4px;
-    background-image: url(./svg/decor/highlight.svg);
+    background-image: url(../svg/decor/highlight.svg);
 }
 
 .main__list {

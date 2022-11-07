@@ -54,10 +54,16 @@ a:active {
 
 
 .header__menu {
-    display: block;    
+    display: block;
+      
 }
 
 .menu__container {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;  
+    overflow-y: hidden;
     min-width: 320px;
     background-color: #FFFFFF;
     position: absolute;
@@ -67,11 +73,25 @@ a:active {
                 16px 0px 52px rgba(14, 24, 80, 0.2);  
 }
 
+.menu__top {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__bottom {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
 .menu__header {
     display: flex;
     align-items: center;
-    padding-top: 18px;
-    margin-bottom: 50px;
+    padding-top: 5%;
+    margin-bottom: 6%;
+    
 }
 
 .icon {
@@ -90,11 +110,11 @@ a:active {
 .menu__list {
     display: flex;
     flex-direction: column;
-    margin-bottom: 268px;
+    
 }
 
 .menu__item {
-    margin-bottom: 32px;
+    margin-bottom: 2vh;
 }
 
 .menu__item-link {
@@ -102,7 +122,6 @@ a:active {
     
     
     font-family: 'TT Lakes';
-    font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #1B1C21;
@@ -129,7 +148,7 @@ a:active {
 .menu__item-link-active::before {
     content: "";
     position: absolute;
-    top: 120px;
+    top: 85px;
     left: 0px;
     height: 32px;
     width: 4px;
@@ -138,14 +157,13 @@ a:active {
 
 .contacts__icons {
     display: flex;
-    margin-bottom: 16px;
-
+    margin-bottom: 2%;
 }
 
 .contacts__tel-mail {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    
 }
 
 .contacts__send-mail {
@@ -154,8 +172,8 @@ a:active {
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #1B1C21;
-
-    margin-bottom: 12px;
+    
+    
 }
 
 .contacts__phone {
@@ -167,7 +185,7 @@ a:active {
 }
 
 .menu__lang {
-    margin-bottom: 32px;
+    margin-bottom: 5%;
 }
 
 .menu__list-lang {

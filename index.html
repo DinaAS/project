@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style_menu.css">
+    <!--<link rel="stylesheet" href="./css/style_menu.css">-->
+    <link rel="stylesheet" href="./css/style_brands.css">
     <title>Сервисный центр</title>
 </head>
 <body>
@@ -205,9 +207,93 @@
                 <img src="./images/signboard.png" alt="signboard" class="image-signboard">
                 </div>
             </section>
-            
+            <section class="main__brands">
+                <div class="brands__header">
+                    <h2 class="brands__heading">Ремонт техники различных брендов</h2>
+                </div>
+                <div class="brands__container" data-mobile="false">
+                    <ul class="brands__wrapper">  
+                        <li class="brands__item">
+                            <img src="./svg/brands/Lenovo.svg" alt="Lenovo" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item">
+                            <img src="./svg/brands/samsung.svg" alt="Samsung" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                            </li>
+                        <li class="brands__item">
+                            <img src="./svg/brands/apple.svg" alt="Apple" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item">
+                            <img src="./svg/brands/viewSonic.svg" alt="ViewSonic" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item">
+                            <img src="./svg/brands/bosch.svg" alt="Bosch" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item">
+                            <img src="./svg/brands/hp.svg" alt="HP" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item brands__item--hiden">
+                            <img src="./svg/brands/acer.svg" alt="Acer" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item brands__item--hiden">
+                            <img src="./svg/brands/sony.svg" alt="Sony" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item brands__item--hiden--always">
+                            <img src="./svg/brands/Lenovo.svg" alt="Lenovo" class="brands__image">
+                                <a href="#" class="brands__link">
+                                    <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                                </a>
+                        </li>
+                        <li class="brands__item brands__item--hiden--always">
+                            <img src="./svg/brands/samsung.svg" alt="Samsung" class="brands__image">
+                            <a href="#" class="brands__link">
+                                <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                            </a>
+                        </li>
+                        <li class="brands__item brands__item--hiden--always">
+                            <img src="./svg/brands/apple.svg" alt="Apple" class="brands__image">
+                            <a href="#" class="brands__link">
+                                <img src="./svg/icon/go.svg" alt="go" class="brands__icon-go">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div> 
+                    <div class="brands__show-all">
+                        <button class="show-all__button">
+                            <img src="./svg/decor/continuation.svg" alt="continuation" class="show-all__icon">
+                            <p class="show-all__text">Показать все</p>
+                            <p class="show-all__text--close">Скрыть</p>
+                        </button>
+                    </div>
+                </div>
+            </section>    
         </div>
-       
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
 </body>
 </html>

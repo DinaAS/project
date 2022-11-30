@@ -1,0 +1,13 @@
+@import 'nullstyles';
+@import 'variables';
+@import 'header-menu';
+@import 'base';
+
+.total__container {
+  display: block;
+
+  @media (min-width: $screen-lg) {
+    display: flex;
+    width: 100%;
+  }
+}

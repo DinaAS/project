@@ -1,0 +1,13 @@
+@import 'nullstyles';
+@import 'variables';
+
+.base__container {
+  @media (min-width: $screen-lg) {
+    display: block;
+    width: 79%;
+  }
+
+  @media (min-width: $screen-xl) {
+    flex: 1 1 1120px;
+  }
+}

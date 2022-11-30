@@ -555,11 +555,6 @@ button {
       padding: 0px 32px;
       position: relative; } }
 
-/*.icon {
-  width: 40px;
-  height: 40px;
-}
-*/
 .icon:not(:last-child) {
   margin-right: 16px; }
 
@@ -811,26 +806,6 @@ button {
 .main__text._hidden {
   display: none; }
 
-/*
-.main__text_visible-768 {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .main__text_visible-768 {
-    display: inline-block;
-  }
-}
-
-.main__text_visible-1120 {
-  display: none;
-}
-
-@media (min-width: 1120px) {
-  .main__text_visible-1120 {
-    display: inline;
-  }
-}*/
 .button__text {
   display: flex;
   align-items: center;
@@ -2753,10 +2728,7 @@ button {
   @media (min-width: 768px) {
     .price__wrapper {
       display: block;
-      width: 100%;
-      /*flex-wrap: wrap;
-    flex-direction: column;
-    width: 100%;*/ } }
+      width: 100%; } }
 
 .price__item {
   box-sizing: border-box;
@@ -3619,24 +3591,6 @@ button {
 @media (min-width: 1440px) {
   .base__container {
     flex: 1 1 1120px; } }
-
-/*$bgColor: #24292e;
-$text: #fff;
-
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}*/
 
 
 /*# sourceMappingURL=style.css.map*/
